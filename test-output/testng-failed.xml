@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="fpo(failed)">
+    <classes>
+      <class name="fpo.InputPlan">
+        <methods>
+          <include name="deleteTest"/>
+          <include name="addInputPlanTest"/>
+          <include name="setup"/>
+          <include name="cloneInputPlanTest"/>
+          <include name="editInputPlanTest"/>
+          <include name="viewTest"/>
+        </methods>
+      </class> <!-- fpo.InputPlan -->
+      <class name="fpo.POP">
+        <methods>
+          <include name="addPOPTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- fpo.POP -->
+    </classes>
+  </test> <!-- fpo(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
